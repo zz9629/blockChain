@@ -1,0 +1,118 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #ededed;
+}
+
+#header {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 30%;
+}
+
+#receipt {
+    font-size: 26px;
+    margin: 0 auto;
+    padding-top: 5%;
+    color: gray;
+    /* padding-bottom: 5%; */
+}
+
+#result {
+    text-align: center;
+}
+
+#receipt {
+    width: 400px;
+    height: 350px;
+    border: 1px solid #0099CC;
+    background-color: #FFFFFF;
+    padding-top: 1%;
+}
+
+#textBox {
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+form {
+    margin: 0px;
+    display: inline
+}
+
+.submit {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #d4af7a;
+    text-transform: uppercase;
+}
+
+.cover {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.function4 {
+    width: 380px;
+    height: 400px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 260px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+label span {
+    font-size: 20px;
+    color: #909399;
+    text-transform: uppercase;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 26px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+}

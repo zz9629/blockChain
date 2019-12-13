@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link href="./images/pie_icon.gif" type="image/gif" rel="shortcut icon">
+
+    <script src="./js/jquery.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="welcomeText">Welcome, </h1>
+        <button type="button" class="submit" id="logout">log out</button>
+    </div>
+
+    <!-- menu  -->
+    <div class="cover" style.display='none'>
+        <!-- func1 -->
+        <div id="func1" class="function4 span-inline">
+            <h2>func1:buyGoods</h2>
+            <form id="func1_form">
+                <label>
+            <span>seller</span>
+            <input type="text" value="" id="func1_seller" name="seller"/>
+        </label>
+                <label>
+                <span>amount($)</span>
+                <input type="number" value="" id="func1_amount" name="amount"/>
+        </label>
+                <label>
+                <span>delayTime(day)</span>
+                <input type="number" value="" id="func1_delaytime" name="time"/>
+        </label>
+                <label>
+                <span>Extra Information</span>
+                <input type="text" value="" id="func1_info" name="info"/>
+        </label>
+                <button type="button" class="submit" id="func1_buttom">submit</button>
+            </form>
+        </div>
+        <!-- func2 -->
+        <div id="func2" class="function4 span-inline">
+            <h2>func2:transferReceipt</h2>
+            <form id="func2_form">
+                <label>
+            <span>To</span>
+            <input type="text" value="" id="func2_to" name="to"/>
+        </label>
+                <label>
+                <span>amount($)</span>
+                <input type="number" value="" id="func2_amount" name="amount"/>
+        </label>
+                <button type="button" class="submit" id="func2_buttom">submit</button>
+            </form>
+        </div>
+        <!-- func3 -->
+        <div id="func3" class="function4 span-inline">
+            <h2>func3:raiseMoney</h2>
+            <form id="func3_form">
+                <label>
+            <span>Bank Name</span>
+            <input type="text" value="" id="func3_bank" name="bank" />
+      
+        </label>
+
+                <button type="button" class="submit" id="func3_buttom">submit</button>
+            </form>
+        </div>
+        <!-- func4 -->
+        <div id="func4" class="function4 span-inline">
+            <h2>func4:payReceipt</h2>
+            <button type="button" class="submit" id="func4_buttom">submit</button>
+        </div>
+        <!-- func5 -->
+        <div id="func5" class="function4 span-inline">
+            <h2>func5:getReceipt</h2>
+            <form id="func5_form">
+                <label>
+                    <span>Receipt index</span>
+                    <input type="string" value="" id="func5_index" name="index" />
+                </label>
+                <button type="button" class="submit" id="func5_button">submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="result">
+        <h1 id="resultText"></h1>
+    </div>
+
+    <div id="receipt">
+        <h2 id=receiptHead>Receipt:</h2>
+        <div id="textBox">
+            <p id="receiptText"></p>
+
+        </div>
+    </div>
+
+
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

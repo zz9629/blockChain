@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="images/pie_icon.gif" type="image/gif" rel="shortcut icon">
+
+    <script src="js/jquery.js"></script>
+
+</head>
+
+<body>
+
+    <div class="content">
+        <!-- log in -->
+        <div class="form sign-in">
+            <h2>Welcome</h2>
+            <form id="login_form">
+                <label>
+                <span>Name</span>
+                <input type="text" value="" id="name_login"  name="name"/>
+            </label>
+                <label>
+                <span>Password</span>
+                <input type="password" value="" id = "pw_login"  name="password"/>
+            </label>
+                <p class="forgot-pass"><a href="javascript:">forget your password？</a></p>
+                <button type="button" class="submit" id="login_button">login in</button>
+            </form>
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                    <h2>Not Registerd Yet？</h2>
+                    <p>Reguster Now！</p>
+                </div>
+                <div class="img__text m--in">
+                    <h2>You have an account？</h2>
+                    <p>Just Login in！</p>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Register</span>
+                    <span class="m--in">Login in</span>
+                </div>
+            </div>
+            <!-- register  -->
+            <div class="form sign-up">
+                <h2>Reguster Now！</h2>
+                <form id="reg_form">
+                    <label>
+                    <span>name</span>
+                    <input type="text" value="" id="name_reg" name="name"/>
+                </label>
+                    <label>
+                    <span>password</span>
+                    <input type="password" id="pw_reg"  name="password"/>
+                </label>
+                    <label>
+                    <span>Organisation Type</span><br>
+                    <span>1:Company--0: Bank Type</span>
+
+                    <input type="text" id="type_reg" name="type"/>
+                </label>
+                    <button type="button" class="submit" id="reg_button">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
